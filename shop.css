@@ -1,0 +1,207 @@
+
+    body p{
+        font-family: Arial,sans-serif;
+       
+    }
+    body{
+        padding-top: 260px;
+  
+       
+    }
+    
+
+.grid-collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+    width:100%;
+}
+
+.logo-picture{
+    background-color: white;
+}
+.head-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: white;
+    width:100%;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    height:250px;
+   
+
+
+}
+.logo{
+  height:50px;
+  display: flex;
+}
+.logo-picture{
+    padding-top: 40px;;
+  height:200px;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.product-image img{
+    width:100%;
+}
+
+
+
+.logo{
+    width:300px;
+    height: 300px;
+    margin-right: 0px;
+    
+}
+
+.logo-picture{
+    width:100%;
+}
+.middle-section{
+   flex:1;
+   
+    display: flex;
+
+}
+.text-box{
+    flex:1;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-color: rgb(192,192,192);
+    border-style: solid;
+    max-width: 500px;
+    width: 0;
+    margin-left: 90px;
+    font-size: 16px;
+    font-family: Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button-section{
+    display: flex;
+    width:360px;
+}
+
+
+.button-css:hover{
+    text-decoration: underline;
+    color: blue;  
+}
+
+.profile,.wishlist,.cart{
+    width:50px;
+    height:50px;
+    margin-right: 20px;
+}
+
+.men-button{
+    border:0px;
+    background-color: white;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(60, 53, 53);
+    margin-left: 0px;
+    background-color: white;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(60, 53, 53);
+    margin-left: 0px;
+    margin-right:40px;
+    
+}
+
+.women-button{
+    border:0px;
+    background-color: white;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(60, 53, 53);
+    margin-right:40px;
+
+}
+.kid-button{
+    border:0px;
+    background-color: white;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(60, 53, 53);
+    margin-left: 0px;
+    
+
+}
+
+.right-section{
+    display:flex;
+    width:300px;
+    justify-content: space-between;
+    margin-left: 20px;
+   
+    
+}
+
+.cart{
+    margin-right: 30px;
+}
+
+
+.pro{
+    position:relative;
+
+}
+
+.one{
+    position: absolute;
+    
+    bottom: -25px;
+    border:0px;
+    background-color: white;
+    font-size: 19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(60, 53, 53);
+    margin-left: 0px;
+}
+
+.two{
+    position: absolute;
+   
+    bottom: -25px;
+    border:0px;
+    background-color: white;
+    font-size: 19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(60, 53, 53);
+    margin-left: 0px;
+
+}
+
+.three{
+    position: absolute;
+       bottom:-23px;
+    right:32px;
+   
+    
+    border:0px;
+    background-color: white;
+    font-size: 19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(60, 53, 53);
+    margin-left: 0px;
+}
+
+
+
